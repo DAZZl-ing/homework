@@ -38,6 +38,22 @@ while n <= 100:
    print('{} {} {} {} {} {} {} {} {} {}'.format(n, n+1, n+2, n+3, n+4, n+5, n+6, n+7, n+8, n+9, n+10))
    n += 10
 
+'''
+강사님 코드 5번
+count = 1
+
+while count <= 100:
+   line = ''
+   count2 = 1
+
+   while count2 <= 10:
+      line += f'{str(count)}	'
+      count += 1
+      count2 += 1
+   
+   print(line)
+'''
+
 ## 6
 N = 1
 while N <= 9:
